@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/python3
 
 # maintain maze state in 2d numpy array. Subscribe to /odom and /scan.
 # Iterate through all 360 degrees and find (x,y) from
