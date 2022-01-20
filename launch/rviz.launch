@@ -2,7 +2,7 @@
 
     <arg name="model" default="$(find pkg_techfest_imc)/urdf/micromouse_robot.xacro"/>
 
-    <!-- Add .py after "$(find xacro)/xacro" for ROS Melodic -->
+    <!-- Add .py after "$(find xacro)/xacro" for versions < Noetic -->
     <param name="robot_description" command="$(find xacro)/xacro $(arg model)" />
     
     <!-- send fake joint values -->

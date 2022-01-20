@@ -22,7 +22,7 @@
     <arg name="extra_gazebo_args" value="$(arg extra_gazebo_args)"/>
   </include>
 
-  <!-- Add .py after "$(find xacro)/xacro" for ROS Melodic -->
+  <!-- Add .py after "$(find xacro)/xacro" for versions < Noetic -->
   <param name="robot_description" command="$(find xacro)/xacro $(arg model)" />
   
 
